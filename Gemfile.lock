@@ -196,8 +196,13 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
+    therubyracer (0.12.2)
+      libv8 (~> 3.16.14.0)
+=======
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
+>>>>>>> e6e7869f7aeca7e47cc7494f81ebd2b2c8db09d7
       ref
     thor (0.20.0)
     thread_safe (0.3.6)
