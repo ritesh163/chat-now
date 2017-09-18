@@ -9,10 +9,12 @@
   </head>
 
   <body>
+  <div class="container">
   	<p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
-    <%= render "layouts/header" %>
-      <%=yield %>
+      <h1 align="right"><%= link_to('Logout', destroy_user_session_path, method: :delete) %></h1> 
+    <%=yield %>  
     <%= render "layouts/footer" %>
+  </div>
   </body>
 </html>
