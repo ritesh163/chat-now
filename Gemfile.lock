@@ -89,7 +89,7 @@ GEM
       less (~> 2.6.0)
       sprockets (> 2, < 4)
       tilt
-    libv8 (3.16.14.15-x86_64-linux)
+    libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -122,13 +122,12 @@ GEM
       rack (>= 1.6.2, < 3)
     omniauth-facebook (4.0.0)
       omniauth-oauth2 (~> 1.2)
-    omniauth-google-oauth2 (0.2.10)
-      addressable (~> 2.3)
-      jwt (~> 1.0)
+    omniauth-google-oauth2 (0.5.2)
+      jwt (~> 1.5)
       multi_json (~> 1.3)
       omniauth (>= 1.1.1)
-      omniauth-oauth2 (~> 1.3.1)
-    omniauth-oauth2 (1.3.1)
+      omniauth-oauth2 (>= 1.3.1)
+    omniauth-oauth2 (1.4.0)
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
     orm_adapter (0.5.0)
@@ -197,8 +196,13 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
+=======
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+>>>>>>> e6e7869f7aeca7e47cc7494f81ebd2b2c8db09d7
       ref
     thor (0.20.0)
     thread_safe (0.3.6)
