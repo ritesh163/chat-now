@@ -33,7 +33,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# gem "twitter-bootstrap-rails"
+
 gem 'devise'
+
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
 gem 'omniauth-facebook'
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
