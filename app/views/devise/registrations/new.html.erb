@@ -36,13 +36,8 @@
             </fieldset>
           <%end%>
           <hr/>
-          <center>
-            <h4>OR</h4>
-          </center>
-          <%- if devise_mapping.omniauthable? %>
-            <%- resource_class.omniauth_providers.each do |provider| %>
-            <%= button_to "Login via facebook", user_facebook_omniauth_authorize_path ,:class => "btn btn-lg btn-facebook btn-block" %><br />
-            <% end -%>
+          <%- if controller_name != 'sessions' %>
+            <h4><%= link_to "Log in", new_session_path(resource_name) %></h4><br />
           <% end -%>
         </div>
       </div>
