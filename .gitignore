@@ -13,7 +13,6 @@
 !/log/.keep
 !/tmp/.keep
 /config/database.yml
-/config/secrets.yml
 /public
 
 /node_modules
